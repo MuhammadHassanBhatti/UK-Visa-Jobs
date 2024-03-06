@@ -1,0 +1,341 @@
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+}
+#root {
+  min-height: 100%;
+}
+.title {
+  font-size: 30px !important;
+  font-weight: 500;
+}
+.Links {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.home {
+  color: #715da0 !important;
+}
+.banner-page {
+  background-color: #f5f8ff;
+  min-height: 520px;
+}
+.Banner-text {
+  font-size: 50px;
+  font-weight: 700;
+}
+.banner-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-grid-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.banner-grid-text > div > p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.banner-number {
+  font-weight: 700;
+  font-size: 30px !important;
+  color: #715da0;
+}
+.Slider {
+  min-height: 300px;
+}
+.slider-tittle {
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.slider-images {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.slider-images > img {
+  margin: auto;
+  margin-top: 50px;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.feature-text {
+  color: #4bbda6;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 80px;
+}
+.Students-tittle {
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.card-design {
+  margin-top: 50px;
+}
+.parent-class {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-image {
+  margin-inline-start: 10px;
+  height: 150px !important;
+  width: 150px !important;
+  object-fit: contain;
+}
+.tag {
+  display: inline-block;
+  margin-right: 80px;
+}
+.card-tittle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookmark {
+  width: 40px;
+}
+.feature-events {
+  color: #715da0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 80px;
+}
+.btn-Register,
+.btn-Advice {
+  background-color: #715da0 !important;
+  border-color: #715da0 !important;
+}
+.virtual {
+  font-size: 12px !important;
+}
+.upComingCardTitle {
+  font-weight: 700 !important;
+}
+.Advice_Cards {
+  margin-top: 40px;
+}
+.footer-bg {
+  background-color: #0f1221;
+  min-height: 300px;
+  margin-top: 50px;
+}
+.footer-text {
+  color: white;
+  align-items: center;
+}
+.support-section,
+.terms-conditions,
+.copy-right {
+  list-style: none;
+}
+.terms-conditions {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.terms-conditions > li {
+  margin-right: 30px;
+}
+.policy {
+  display: flex;
+  justify-content: space-between;
+}
+i {
+  margin-right: 8px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575.9px) {
+  .title {
+    font-size: 25px !important;
+  }
+  .Banner-text {
+    font-size: 30px !important;
+    margin-top: 20px;
+  }
+  .banner-page {
+    padding: 20px;
+  }
+  .banner-number {
+    font-size: 22px !important;
+  }
+  .banner-grid-text > div > p {
+    font-size: 12px;
+  }
+  .slider-tittle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 50px !important;
+  }
+  .slider-images > img {
+    margin-right: 12px;
+    margin-left: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .feature-text {
+    margin-top: 60px;
+    font-size: 14px;
+  }
+  .Students-tittle {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .card-image {
+    min-width: 75%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .tag {
+    margin-right: 50px;
+  }
+  .feature-events {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .terms-conditions,
+  .copy-right > li {
+    margin-right: 0;
+    font-size: 13px;
+  }
+  .support-section {
+    font-size: 14px;
+  }
+  i {
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.9px) {
+  .Banner-text {
+    font-size: 45px !important;
+    margin-top: 20px;
+  }
+  .banner-page {
+    padding: 20px;
+  }
+  .slider-tittle {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 60px !important;
+  }
+  .slider-images > img {
+    margin: 10px;
+    margin-top: 40px;
+  }
+  .feature-text {
+    margin-top: 60px;
+  }
+  .card-image {
+    min-width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .feature-events {
+    margin-top: 40px;
+  }
+  .terms-conditions > li {
+    margin-right: 40px;
+  }
+  .copy-right > li {
+    margin: 0px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+    .Banner-text {
+      font-size: 45px !important;
+      margin-top: 20px;
+    }
+    .banner-page {
+      padding: 20px;
+    }
+     .slider-tittle {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 60px !important;
+    }
+    .slider-images > img {
+      margin: 20px;
+      margin-top: 30px;
+    }
+    .feature-text {
+      margin-top: 60px;
+    }
+    .card-image {
+      min-width: 50%;
+      margin: auto;
+      margin-top: 10px;
+    }
+    .tag{
+        margin-right: 60px;
+    }
+   .feature-events {
+      margin-top: 40px;
+    }
+    .terms-conditions,
+    .copy-right > li {
+      margin-right: 0;
+      font-size: 15px;
+    }
+   
+   
+  }
+
+/* //Form Components
+/* @media only screen and (min-width: 320px) and (max-width: 575.9px) {
+  .img-parent .banner-img-class {
+    width: 100% !important;
+    padding: 50px;
+  }
+  .card-class {
+    padding: 15px 25px !important;
+  }
+  .bg-div {
+    padding: 0px !important;
+    display: block !important;
+  }
+  .ul-class {
+    flex-direction: column;
+  }
+  .english-language-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .english-language-btn .btn {
+    width: 100%;
+  }
+}
+.form-class {
+  max-width: 600px;
+  background: red;
+}
+.card-class {
+  max-width: 400px;
+}
+.toggle-class {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #e2e2e2 !important;
+  width: 120px !important;
+}
+.main-col-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
