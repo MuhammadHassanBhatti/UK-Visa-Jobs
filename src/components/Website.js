@@ -8,9 +8,6 @@ import UpComingEvents from './UpCommingEvents/UpComingEvents'
 import LatestAdvice from './LatestAdvice/LatestAdvice'
 import Footer from './Footer/Footer'
 
-
-
-
 const Website = () => {
   return (
     <div>

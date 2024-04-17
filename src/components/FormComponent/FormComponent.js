@@ -6,15 +6,14 @@ const FormComponent = () => {
     <>
       <div className="parent-Class">
         <div className="container-fluid" style={{}}>
-            <div
-              className="bg-div"
-              style={{
-                minHeight:"100vh",
-                background: "/f8f7fc",
-               
-              }}
-            >
-                <div className="row ">
+          <div
+            className="bg-div"
+            style={{
+              minHeight: "100vh",
+              background: "/f8f7fc",
+            }}
+          >
+            <div className="row ">
               <div className="col-lg-6 col-md-6 col-sm-12 main-col-class">
                 <div
                   className="img-parent"
@@ -34,17 +33,20 @@ const FormComponent = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 ">
-                <div className="form-class my-3 me-4 card" style={{
-                      display: "flex",
-                      justifyContent: "center",
-                        
-                      flexDirection:"column",
-                      border: "none",
-                      boxShadow:
-                        "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-                      alignItems: "center",
-                      textAlign: "center",
-                    }}>
+                <div
+                  className="form-class my-3 me-4 card"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+
+                    flexDirection: "column",
+                    border: "none",
+                    boxShadow:
+                      "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
+                    alignItems: "center",
+                    textAlign: "center",
+                  }}
+                >
                   <div
                     className=" card-class"
                     style={{
@@ -52,9 +54,9 @@ const FormComponent = () => {
                       minHeight: "94vh",
                       display: "flex",
                       justifyContent: "center",
-                      flexDirection:"column",
+                      flexDirection: "column",
                       border: "none",
-                   
+
                       alignItems: "center",
                       textAlign: "center",
                     }}
@@ -71,7 +73,7 @@ const FormComponent = () => {
                         Your Social Campaigns
                       </p>
                     </div>
-                    
+
                     <form className="w-100">
                       <input
                         type="email"
@@ -155,7 +157,9 @@ const FormComponent = () => {
                                   </a>
                                 </li>
                                 <li>
-                                  <a class="dropdown-divider" href="/"> </a>
+                                  <a class="dropdown-divider" href="/">
+                                    {" "}
+                                  </a>
                                 </li>
                                 <li>
                                   <a class="dropdown-item" href="/">

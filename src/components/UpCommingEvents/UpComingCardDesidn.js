@@ -15,8 +15,12 @@ const UpComingCardDesidn = ({ EventsData }) => {
             <Card className="my-2">
               <div>
                 <Card.Body>
-                  <CardSubtitle className="virtual mb-1 text-muted ">Virtual Interviews</CardSubtitle>
-                  <Card.Title className="upComingCardTitle">{item.tittle}</Card.Title>
+                  <CardSubtitle className="virtual mb-1 text-muted ">
+                    Virtual Interviews
+                  </CardSubtitle>
+                  <Card.Title className="upComingCardTitle">
+                    {item.tittle}
+                  </Card.Title>
                   <Card.Subtitle className="virtual mb-2 text-muted">
                     {item.calender} {item.date}@{item.timeDuration}
                   </Card.Subtitle>
